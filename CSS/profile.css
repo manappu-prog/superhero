@@ -1,0 +1,55 @@
+body{
+    background-color: aliceblue;
+    background-image: url('../logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroudStyle {
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+}
+
+.textColorSize {
+    color: green;
+}
+
+#superHeroImg{
+    height:250px;
+    width:250px;
+    border-radius: 10%;
+}
+
+h4{
+    margin-left: 10%;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 450px) {
+    #superHeroImg{
+        height:70%;
+        width:70%;
+        border-radius: 10%;
+        margin-left: 10%;
+    }
+    h4{
+        margin-left: 0%;
+    }
+    .backgroudStyle{
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .backgroudStyle{
+        margin: 10px;
+    }
+    .textColorSize {
+        margin-left: 0%;
+        font-size: 16px;
+    }
+    #superHeroImg{
+        margin-left: 10%;
+    }
+}
